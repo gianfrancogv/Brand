@@ -1,0 +1,36 @@
+@media (max-width: 600px) {
+
+    .main_section {
+        margin-top: 10px;
+    }
+    
+    .products {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .product {
+        margin-top: auto;
+        margin: 0 10%;
+    }
+
+    .product .content {
+        width: auto;
+    }
+
+    .main_section {
+        padding: 4%;
+    }
+
+}
+
+@media (max-width: 800px) {
+
+    .info, .mentions .content {
+        flex-direction: column;
+        margin: auto;
+    }
+
+}

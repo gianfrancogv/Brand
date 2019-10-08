@@ -53,7 +53,6 @@ nav li a:hover{
 .info {
     margin: 0 100px;
     display: flex;
-    justify-content: space-between;
 }
 
 .info .content {
@@ -68,9 +67,6 @@ nav li a:hover{
 /*------------------------------------------------------ Mentions*/
 
 .mentions {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
     margin: 0 100px;
 }
 
