@@ -1,16 +1,25 @@
 .container {
     max-width: 900px;
     margin: auto;
-    padding: 50px 0px;
 }
 
 h1, p {
     margin: 10px 0px;
 }
 
+.titulo {
+    padding-top: 50px;
+}
+
 .row {
     display: flex;
-    padding: 25px 0px;
+    margin: 50px 0px;
+}
+
+.fila {
+    display: flex;
+    align-items: flex-start;
+    margin: 162px 0px;
 }
 
 .col-1 {

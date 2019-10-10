@@ -48,6 +48,10 @@ nav li a:hover{
     color: var(--white-color);
 }
 
+label {
+    font-size: 10px;
+}
+
 /*----------------------------------------------------- Home */
 
 .info {
@@ -141,6 +145,37 @@ nav li a:hover{
 
 .main_button:hover {
     background-color: #5e9e22;
+}
+
+/*-----------------------------------------pago*/
+
+.modulo-pago {
+    background-color: var(--white-color);
+    box-shadow: var(--box);
+    padding: var(--space);
+    width: 100%;
+}
+
+.modulo-pago-img {
+    display: flex;
+    justify-content: center;
+    max-width: 150px;
+    margin: auto;
+}
+
+.modulo-pago form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+}
+
+.input-data {
+    height: 30px;
+    padding: 5px;
+    border-radius: 2px;
+    border: 1px solid black;
+    margin-bottom: var(--space);
+
 }
 
 /*-----------------------------------------footer*/

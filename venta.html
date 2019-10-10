@@ -25,9 +25,29 @@
     </nav>
         
     <div class="container">
-        <div class="row">
-            <div class="col-4">ajdhakjsdhajsdhasj</div>
-            <div class="col-8">ajdhakjsdhajsdhasj</div>
+        <div class="fila">
+            <div class="col-4">
+                <div class="modulo-pago">
+                    <div class="modulo-pago-img">
+                        <img src="images/box2.png" alt="Art 1">
+                    </div>
+                    <h3>Producto 1</h3>
+                    <p>Miles de productos hay en el mercado, pero nada como una caja con gatitos</p>
+                </div>
+            </div>
+            <div class="col-8">
+                <div class="modulo-pago">
+                    <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8MZBHS6CV84F6" method="POST">
+                        <label for="name">Nombre</label>
+                        <input type="text" placeholder="" name="name" class="input-data">
+                        <label for="mail">Email</label>
+                        <input type="text" placeholder="" name="mail" class="input-data">
+                        <label for="phone">Telefono</label>
+                        <input type="text" placeholder="" name="phone" class="input-data">
+                        <input type="submit" name="submit" class="main_button" value="Confirmar pago">
+                    </form>
+                </div>
+            </div>
         </div>
     </div>
 
